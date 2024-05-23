@@ -5,27 +5,25 @@
         
     public int Id { get; }
         public string Name { get; }
-        private double price;
+        private double _price;
         public double Price
         {
             get { return price; }
             set
             {
-                if (value < 0)
-                new ArgumentException("Price cannot be negative.");
-                price = value;
+                if (value > 0)
+                _price = value;
             }
         }
 
-        private int count;
+        private int _count;
         public int Count
         {
             get { return count; }
             set
             {
-                if (value < 0)
-                new ArgumentException("Count cannot be negative.");
-                count = value;
+                if (value > 0)
+                _count = value;
             }
         }
 
