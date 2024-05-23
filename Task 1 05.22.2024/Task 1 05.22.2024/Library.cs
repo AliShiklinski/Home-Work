@@ -15,7 +15,7 @@
         public void AddBook(Book book)
         {
             if (bookCount >= books.Length)
-                throw new InvalidOperationException("Library is full.");
+               
             books[bookCount++] = book;
         }
 
