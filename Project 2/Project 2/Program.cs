@@ -51,7 +51,7 @@ class Program
                 case 6:
                     return;
                 case 7:
-                    Console.WriteLine("1 - Jurnal tutumunu deyisdirin");
+                    Console.WriteLine("1 - Sarjor tutumunu deyisdirin");
                     Console.WriteLine("2 - Cari gulleleri deyisdirin");
 
                     int editChoice = int.Parse(Console.ReadLine());
