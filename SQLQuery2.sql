@@ -13,9 +13,9 @@ CREATE TABLE Authors (
 
 
 INSERT INTO Authors (Id, Name, Surname) VALUES
-(1, 'Ali', 'Mmemedov'),
-(2, 'Huseyn', 'Mkidr'),
-(3, 'Ilham', 'Slaqbaun');
+(1, 'Ali', 'Veliyev'),
+(2, 'Qelender', 'Ehmedov'),
+(3, 'Veli', 'Eyvazov');
 
 
 CREATE TABLE Books (
